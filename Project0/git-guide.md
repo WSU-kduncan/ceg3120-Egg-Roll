@@ -68,4 +68,6 @@ Entries that are currently crossed out we will get to later in the course that y
   - Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. 
   - Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 - **SSH authentication to repositories**
+  - You can access and write data in repositories on GitHub.com using SSH (Secure Shell Protocol). 
+  - When you connect via SSH, you authenticate using a private key file on your local machine.
 - ~~Actions~~
