@@ -58,7 +58,7 @@
   - It also contains a log that stores the commit history. This log can help you to roll back to the desired version of the code.
 - **.gitignore file**
   - A .gitignore file is a plain text file where each line contains a pattern for files/directories to ignore. 
-  - Generally, this is placed in the root folder of the repository, and that's what I recommend. 
+  - Generally, this is placed in the root folder of the repository.
   - However, you can put it in any folder in the repository and you can also have multiple .gitignore files.
 - ~~.git/hooks~~
 
@@ -68,6 +68,5 @@
   - Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. 
   - Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 - **SSH authentication to repositories**
-  - You can access and write data in repositories on GitHub.com using SSH (Secure Shell Protocol). 
-  - When you connect via SSH, you authenticate using a private key file on your local machine.
+  - a secure network that uses a key based system for remote communication between machines on an unsecured open network
 - ~~Actions~~
