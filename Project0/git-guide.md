@@ -38,7 +38,7 @@
   - The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
   - `git merge [branch name]`
 - **pull**
-  -The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. 
+  - The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. 
   - `git pull`
 - **branch**
   - A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process.
@@ -68,5 +68,5 @@
   - Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. 
   - Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 - **SSH authentication to repositories**
-  - a secure network that uses a key based system for remote communication between machines on an unsecured open network
+  - A secure network that uses a key based system for remote communication between machines on an unsecured open network
 - ~~Actions~~
