@@ -1,3 +1,4 @@
+# Based on example https://discordpy.readthedocs.io/en/stable/quickstart.html
 import os
 
 import discord
@@ -8,7 +9,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 load_dotenv()
-TOKEN = 'MTAxODkyODgyMDA5MjQwMzc2M
+TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
 client = discord.Client(intents=intents)
