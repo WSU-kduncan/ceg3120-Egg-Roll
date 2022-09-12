@@ -8,7 +8,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = 'MTAxODkyODgyMDA5MjQwMzc2M
 GUILD = os.getenv('DISCORD_GUILD')
 
 client = discord.Client(intents=intents)
@@ -42,4 +42,4 @@ async def on_message(message):
         response = random.choice(hitchhiker_quotes)
         await message.channel.send(response)
 
-client.run(
+client.run(TOKEN)
