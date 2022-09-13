@@ -43,10 +43,8 @@ async def on_message(message):
     #if message.content.startswith('$technoblade')
         response = random.choice(technoblade_quotes)
         await message.channel.send(response)
-
-@client.event
-async def on_message(message):
-    if message.content == 'pig!':
+        
+    elif message.content == 'pig!':
     #if message.content.startswith('pig'):
         await message.channel.send(file=discord.File(random.choice(('pig1.JPG', 'pig22.JPG', 'pig3.JPG'))))
 
