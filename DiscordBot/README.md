@@ -23,9 +23,8 @@
 ## Usage:
 
 - **Commands**:
-  - sdf
-- Responses:
-  - sdf
+  - `technoblade!`: Sends a random quote from a YouTuber I watch who sadly passed away recently.
+  - `pig!`: Sends a random image of a pig (only 5 options).
 
 ## Research:
 
