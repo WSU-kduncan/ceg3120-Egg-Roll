@@ -46,6 +46,6 @@ async def on_message(message):
         
     elif message.content == 'pig!':
     #if message.content.startswith('pig'):
-        await message.channel.send(file=discord.File(random.choice(('pig1.JPG', 'pig22.JPG', 'pig3.JPG'))))
+        await message.channel.send(file=discord.File(random.choice(('pig1.jpg', 'pig22.jpg', 'pig3.jpg'))))
 
 client.run(TOKEN)
