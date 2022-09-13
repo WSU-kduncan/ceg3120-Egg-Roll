@@ -32,15 +32,21 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    hitchhiker_quotes = [
-        'There is an art, it says, or rather, a knack to flying. The knack lies in learning how to throw yourself at the ground and miss.',
-        'It is a mistake to think you can solve any major problems just with potatoes.',
-        'In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.',
-        'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.',
+    technoblade_quotes = [
+        'Dude, these orphans are getting destroyed!',
+        'This is the second-worst thing to happen to these orphans.',
+        'Look, I am an atheist, but when God sends me to Hell I want him to hesitate.',
+        'Now, I know what you are gonna say: Technoblade, you monster! You really killed millions of your own kind just to make a sword?. And it- look, look, look, come on, you gotta understand. There was nothing else I could do, I was mildly inconvenienced!',
+	'Most opportunities are created by luck. It takes skill to grasp those opportunities and turn it into success.',
     ]
-    if message.content == 'towel!':
-    #if message.content.startswith('$towel'):
-        response = random.choice(hitchhiker_quotes)
+    if message.content == 'technoblade!' or message.content.startswith('$technoblade'):
+        response = random.choice(technoblade_quotes)
         await message.channel.send(response)
+
+@client.event
+async def on_message(message):
+    if message.content == 'pig!':
+    #if message.content.startswith('pig'):
+        await message.channel.send(file=discord.File(random.choice(('pig1.JPG', 'pig22.JPG', 'pig3.JPG'))))
 
 client.run(TOKEN)
