@@ -39,11 +39,11 @@ async def on_message(message):
         'Now, I know what you are gonna say: Technoblade, you monster! You really killed millions of your own kind just to make a sword?',
         'Most opportunities are created by luck. It takes skill to grasp those opportunities and turn it into success.',
     ]
-    if message.content == 'technoblade!' or message.content.startswith('$technoblade'):
+    if message.content == 'technoblade!':
         response = random.choice(technoblade_quotes)
         await message.channel.send(response)
         
-    elif message.content == 'pig!' or message.content.startswith('pig'):
+    elif message.content == 'pig!':
         await message.channel.send(file=discord.File(random.choice(('pig1.jpg', 'pig2.jpg', 'pig3.jpg', 'pig4.jpg', 'pig5.jpg'))))
 
 client.run(TOKEN)
