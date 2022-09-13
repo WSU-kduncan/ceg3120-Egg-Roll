@@ -36,10 +36,11 @@ async def on_message(message):
         'Dude, these orphans are getting destroyed!',
         'This is the second-worst thing to happen to these orphans.',
         'Look, I am an atheist, but when God sends me to Hell I want him to hesitate.',
-        'Now, I know what you are gonna say: Technoblade, you monster! You really killed millions of your own kind just to make a sword?. And it- look, look, look, come on, you gotta understand. There was nothing else I could do, I was mildly inconvenienced!',
-	'Most opportunities are created by luck. It takes skill to grasp those opportunities and turn it into success.',
+        'Now, I know what you are gonna say: Technoblade, you monster! You really killed millions of your own kind just to make a sword?',
+        'Most opportunities are created by luck. It takes skill to grasp those opportunities and turn it into success.',
     ]
-    if message.content == 'technoblade!' or message.content.startswith('$technoblade'):
+    if message.content == 'technoblade!':
+    #if message.content.startswith('$technoblade')
         response = random.choice(technoblade_quotes)
         await message.channel.send(response)
 
