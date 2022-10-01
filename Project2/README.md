@@ -3,7 +3,7 @@
 1. **VPC**  
 
    ![vpc screenshot](images/vpc.png/)   
-   Creates a virtual network defined by the user that protects/isolates data and resources in the cloud
+    - Creates a virtual network defined by the user that protects/isolates data and resources in the cloud
   
 2. **Subnet**  
 
