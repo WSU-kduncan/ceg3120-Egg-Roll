@@ -21,7 +21,7 @@
 4. **Routing Table**  
 
    ![route table screenshot](images/routing_table.png/)   
-    - Uses rules(routes) that help determine where network traffic from your subnet or gateway is directed
+    - Uses rules (routes) that help determine where network traffic from your subnet or gateway is directed
   
 5. **Security Group**  
 
