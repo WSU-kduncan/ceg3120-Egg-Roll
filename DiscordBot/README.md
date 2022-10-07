@@ -3,7 +3,7 @@
 ## Setup:
 
 - **Dependencies**:
-  - Python3
+  - Python3 (test)
   - Discord.py
   - Python-dotenv packages
 - **How to get API token**:
