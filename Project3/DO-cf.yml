@@ -137,7 +137,7 @@ Resources:
         Fn::Base64:
           !Sub |
             #!/bin/bash -xe
-            hostnamectl set-hostname Barga-CF && \
+            hostnamectl set-hostname Do-CF && \
             apt-get update && \
             apt-get install -y \
               git \
