@@ -122,8 +122,6 @@ Resources:
         - Key: Application
           Value: !Ref 'AWS::StackId'
         - Key: Name
-          Value: ceg3120ubuntu
-        - Key: Name
           Value: Do-CF-instance
       NetworkInterfaces:
         - GroupSet:
