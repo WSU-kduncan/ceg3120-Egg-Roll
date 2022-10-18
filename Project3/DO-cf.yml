@@ -142,5 +142,5 @@ Resources:
             apt-get install -y \
               git \
               python3 \
-              pip3 && \
+              pip && \
             reboot
