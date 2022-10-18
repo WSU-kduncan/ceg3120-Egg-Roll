@@ -105,9 +105,6 @@ Resources:
           FromPort: '22'
           ToPort: '22'
           CidrIp: 76.217.242.62/32
-      Tags:
-        - Key: Name
-          Value: Do-CF-securitygroup
   PublicUbuntuInstance:
     Type: 'AWS::EC2::Instance'
     DependsOn: AttachGateway
