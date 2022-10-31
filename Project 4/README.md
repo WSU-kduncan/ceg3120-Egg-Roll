@@ -56,7 +56,7 @@ web serv2: ssh -i /home/ubuntu/.ssh/ceg3120-aws-vm.pem ubuntu@10.0.1.11 or ssh w
    - one screenshot that shows content from "server 1"
 
 
-   ![server 1 screenshoot](server1.png)
+   ![server 1 screenshot](server1.png)
    - one screenshot that shows content from "server 2"
 
 
