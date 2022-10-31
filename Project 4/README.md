@@ -52,10 +52,10 @@ web serv2: ssh -i /home/ubuntu/.ssh/ceg3120-aws-vm.pem ubuntu@10.0.1.11 or ssh w
          * https://ubuntu.com/server/docs/web-servers-apache
      
 5. From the browser, when connecting to the proxy server, take two screenshots.
-   - one screenshot that shows content from "server 1"
+   - Screenshot that shows content from "server 1"
 
    ![server 1 screenshot](server1.png)
-   - one screenshot that shows content from "server 2"
+   - Screenshot that shows content from "server 2"
 
    ![server screenshot](server2.png)
 
