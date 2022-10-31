@@ -4,7 +4,6 @@
    - Description of how file is configured
         * adding the private ips of my webservers to the /etc/hosts file
 
-
         ![etc hosts screenshot](proxy.png)
 2. Document how to SSH in between the systems utilizing their private IPs.
 ```
@@ -34,7 +33,7 @@ web serv2: ssh -i /home/ubuntu/.ssh/ceg3120-aws-vm.pem ubuntu@10.0.1.11 or ssh w
            server webserv2 10.0.1.11:80
      ```
      - How to restart the service after a configuration change
-         * sudo systemctl restart haproxy 
+         * `sudo systemctl restart haproxy` 
      - Resources used (websites)
          * https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
 4. **_Webserver 1 & 2 configuration & documentation requirements_**
@@ -55,10 +54,8 @@ web serv2: ssh -i /home/ubuntu/.ssh/ceg3120-aws-vm.pem ubuntu@10.0.1.11 or ssh w
 5. From the browser, when connecting to the proxy server, take two screenshots.
    - one screenshot that shows content from "server 1"
 
-
    ![server 1 screenshot](server1.png)
    - one screenshot that shows content from "server 2"
-
 
    ![server screenshot](server2.png)
 
