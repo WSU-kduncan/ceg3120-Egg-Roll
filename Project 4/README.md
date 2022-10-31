@@ -60,6 +60,6 @@ web serv2: ssh -i /home/ubuntu/.ssh/ceg3120-aws-vm.pem ubuntu@10.0.1.11 or ssh w
    - one screenshot that shows content from "server 2"
 
 
-   ![server screenshot](fixserver2.png)
+   ![server screenshot](server2.png)
 
 6. (Optional) - link to your proxy so I can click it.
